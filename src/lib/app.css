@@ -1,0 +1,11 @@
+/* テーマの変更 */
+/* https://picocss.com/docs/customization.html */
+/* Overriding CSS variablesの内容をコピー */
+.error {
+    color: orange;
+    margin-left: 0.6rem;
+}
+
+.server-error {
+    margin-bottom: 20px;
+}
