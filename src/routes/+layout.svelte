@@ -31,6 +31,11 @@
 					<strong class="name">welcome! {data.userName}</strong>
 				</li>
 				<li>
+					<a href="/board/new" role="button" class="outline"
+						>Create New Thread</a
+					>
+				</li>
+				<li>
 					<form method="POST">
 						<button
 							formaction="/auth/logout"

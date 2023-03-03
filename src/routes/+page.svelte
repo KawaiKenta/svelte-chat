@@ -9,13 +9,14 @@
         <article>
             <header>SvelteKitってなに</header>
             <body>
-                <p>なかみ</p>
-                <p>なかみ2</p>
-                <p>なかみ3</p>
+                ID: 72f1f
+                <div>
+                    SvelteKitは、高度なパフォーマンスとリアクティブなユーザーインターフェースを持つWebアプリケーションを構築するためのフレームワークです。SvelteKitは、Svelteというフロントエンドフレームワークの上に構築されており、サーバーレンダリング、クライアントサイドルーティング、プリフェッチングなどの機能を提供しています。
+                </div>
             </body>
-            <footer>
-                <p>lastupdate:</p>
-                <p>ikioui:</p>
+            <footer class="tags">
+                <strong>tags:</strong>
+                <button class="tag secondary outline">SvelteKit</button>
             </footer>
         </article>
     </div>
@@ -58,5 +59,23 @@
     .home-button {
         width: 100%;
         margin: 10px 0;
+    }
+    article {
+        padding-bottom: 0;
+    }
+    .tags {
+        display: flex;
+        margin-bottom: 0;
+        align-items: center;
+    }
+    .tag {
+        width: auto;
+        margin-right: 2px;
+        padding: 5px;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+    .tags strong {
+        margin-right: 20px;
     }
 </style>
