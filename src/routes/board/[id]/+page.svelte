@@ -1,7 +1,5 @@
 <script lang="ts">
     import type { ActionData, PageServerData } from "./$types";
-    import { enhance } from "$app/forms";
-    import back from "$lib/back.svg";
     export let data: PageServerData;
     export let form: ActionData;
 </script>
