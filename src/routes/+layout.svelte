@@ -23,7 +23,11 @@
 <div class="container">
 	<nav>
 		<ul>
-			<h2 class="title"><a href="/">SvelteKit Bulletin Board</a></h2>
+			<h2 class="title">
+				<a href={data.session ? "board/" : "/"}
+					>SvelteKit Bulletin Board</a
+				>
+			</h2>
 		</ul>
 		<ul>
 			{#if data.session}

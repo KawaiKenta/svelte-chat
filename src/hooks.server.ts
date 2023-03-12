@@ -10,6 +10,9 @@ export const handle: Handle = async ({ event, resolve }) => {
     if (session && event.url.pathname === "/") {
         throw redirect(303, "/board")
     }
+    if (session && event.url.pathname === "/auth/login") {
+        throw redirect(303, "/board")
+    }
     // not login
     if (!session && event.url.pathname.startsWith("/board")) {
         throw redirect(303, "/auth/login")
